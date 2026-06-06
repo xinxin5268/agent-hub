@@ -1,0 +1,63 @@
+{
+  "library": "场景素材库",
+  "type": "scene",
+  "description": "AI漫剧场景资产库，包含场景类型、氛围设定、光影模板、透视参考",
+  "version": "1.0",
+  "created": "2026-06-06",
+  "fields": {
+    "id": "场景唯一标识，如 S001",
+    "name": "场景名称",
+    "type": "固定为 scene",
+    "category": "室内/室外/奇幻/历史/科幻",
+    "time_of_day": "清晨/正午/黄昏/夜晚",
+    "weather": "晴/阴/雨/雪/雾",
+    "atmosphere": "氛围描述（宁静/压抑/宏大/温馨等）",
+    "lighting": "光影描述（自然光/烛光/月光/逆光/侧光等）",
+    "color_tone": "色调（暖调/冷调/高饱和/低饱和/黑白等）",
+    "perspective": "透视（平视/俯视/仰视/鱼眼等）",
+    "composition": "构图（三分法/对称/引导线/框架等）",
+    "consistency_keywords": "场景一致性关键词",
+    "prompt_templates": {
+      "wide": "全景提示词模板",
+      "detail": "细节提示词模板"
+    }
+  },
+  "entries": [
+    {
+      "id": "S001",
+      "name": "示例场景 - 古城城楼",
+      "type": "scene",
+      "category": "室外·历史",
+      "time_of_day": "黄昏",
+      "weather": "晴·微风",
+      "atmosphere": "苍茫辽阔，肃杀中带一丝悲壮",
+      "lighting": "黄昏逆光，暖橙色调，城墙阴影拉长",
+      "color_tone": "暖调低饱和，橙黄+灰蓝主色",
+      "perspective": "仰视城楼+平视远眺交替",
+      "composition": "三分法，城墙线条引导视线至远方",
+      "consistency_keywords": "古城，青砖城墙，城楼，黄昏，苍茫",
+      "prompt_templates": {
+        "wide": "Wide shot of [scene_name], [atmosphere], [lighting], [time_of_day], [weather], epic scale, cinematic, 8k, --ar 16:9",
+        "detail": "Detail shot of [scene_name], focusing on [element], [lighting], texture details, shallow depth of field, cinematic, 8k"
+      }
+    },
+    {
+      "id": "S002",
+      "name": "示例场景 - 竹林小径",
+      "type": "scene",
+      "category": "室外·自然",
+      "time_of_day": "清晨",
+      "weather": "薄雾",
+      "atmosphere": "清幽静谧，神秘朦胧",
+      "lighting": "晨光透过竹叶，斑驳光影",
+      "color_tone": "冷调，翠绿+青灰+白",
+      "perspective": "平视+低角度",
+      "composition": "引导线构图，竹径延伸",
+      "consistency_keywords": "竹林，青翠，薄雾，晨光，石径",
+      "prompt_templates": {
+        "wide": "Wide shot of bamboo forest path, morning mist, dappled sunlight through bamboo leaves, serene and mysterious, cinematic, 8k, --ar 16:9",
+        "detail": "Close-up of bamboo leaves with dew drops, soft morning light, bokeh background, nature photography, 8k"
+      }
+    }
+  ]
+}

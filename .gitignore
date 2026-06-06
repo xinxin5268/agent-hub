@@ -1,0 +1,22 @@
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+dist/
+
+# Build
+tsconfig.tsbuildinfo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Local
+.env
+.local
+NOTES.md
+
+# Runtime data (不要上传运行时数据)
+agent-hub/data/messages.json
+agent-hub/data/sessions.json
+agent-hub/data/tasks.json

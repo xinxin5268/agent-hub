@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --hub-primary: #6366f1;
+  --hub-accent: #22d3ee;
+  --hub-bg: #030712;
+  --hub-surface: #111827;
+  --hub-surface2: #1f2937;
+  --hub-border: #374151;
+  --hub-text: #f3f4f6;
+  --hub-text-muted: #9ca3af;
+  --hub-danger: #ef4444;
+  --hub-success: #22c55e;
+  --hub-warning: #f59e0b;
+  --hub-info: #3b82f6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'SF Pro', system-ui, -apple-system, sans-serif;
+  background: var(--hub-bg);
+  color: var(--hub-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #374151; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #4b5563; }
+
+/* Animations */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+@keyframes slide-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes bar-pulse {
+  0%, 100% { transform: scaleY(0.4); }
+  50% { transform: scaleY(1); }
+}
+
+@keyframes breathing-glow {
+  0%, 100% { box-shadow: 0 0 8px rgba(245,158,11,0.2); }
+  50% { box-shadow: 0 0 20px rgba(245,158,11,0.45); }
+}
+
+.animate-slide-in { animation: slide-in 0.3s ease-out; }
+.animate-fade-in { animation: fade-in 0.2s ease-out; }
+.animate-spin-slow { animation: spin-slow 2s linear infinite; }
+
+/* Status dots for agents */
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.status-dot.online { background: var(--hub-success); box-shadow: 0 0 6px rgba(34,197,94,0.5); }
+.status-dot.busy { background: var(--hub-warning); box-shadow: 0 0 6px rgba(245,158,11,0.5); animation: pulse-dot 1.5s infinite; }
+.status-dot.offline { background: var(--hub-text-muted); }
+.status-dot.error { background: var(--hub-danger); animation: pulse-dot 1s infinite; }
+
+/* Agent activity audio bars */
+.audio-bars {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 16px;
+}
+.audio-bars span {
+  width: 3px;
+  background: var(--hub-accent);
+  border-radius: 2px;
+  animation: bar-pulse 0.6s infinite alternate;
+}
+.audio-bars span:nth-child(1) { animation-delay: 0s; }
+.audio-bars span:nth-child(2) { animation-delay: 0.1s; height: 60%; }
+.audio-bars span:nth-child(3) { animation-delay: 0.2s; height: 80%; }
+.audio-bars span:nth-child(4) { animation-delay: 0.3s; }
+.audio-bars span:nth-child(5) { animation-delay: 0.15s; height: 70%; }
+
+/* Breathing glow for speaking agents */
+.breathing-glow { animation: breathing-glow 2s ease-in-out infinite; }

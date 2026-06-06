@@ -1,0 +1,91 @@
+[
+  {
+    "id": "C002",
+    "name": "凌霜月",
+    "type": "role",
+    "gender": "女",
+    "age_group": "青年",
+    "style": "古风仙侠写实",
+    "skin_tone": "雪白透微粉 (#FFF5EE)",
+    "hair_style": "高挽凌云髻，发髻斜插步摇，余发如瀑布垂至腰际，发丝间隐现流光",
+    "hair_color": "墨黑中泛月光蓝 (#1a1a2e)",
+    "eye_color": "浅琥珀金，瞳孔如霜月般清冷，虹膜带细微金丝纹路",
+    "appearance": "鹅蛋脸型，线条柔美而不失棱角。柳叶弯眉微挑，自带三分英气。鼻梁高挺秀直，鼻尖微翘。唇形丰满如樱花瓣，上唇薄下唇厚，唇色淡粉。眼型为丹凤眼，眼尾上挑，眼角含霜。眉间一点朱砂痣（霜月印记）。整体气质清冷出尘，如月宫仙子临凡。",
+    "body_type": "修长匀称，身姿婀娜有致，肩若削成，腰如约素",
+    "height": "修长（约170cm）",
+    "four_views": {
+      "front": "正面全身：凌霜月正面站立，高挽凌云髻上斜插白玉霜月步摇，墨蓝长发垂至腰际。身穿月白渐变淡蓝广袖流仙裙，外罩冰蚕丝半透明纱衣，腰间束霜白色玉带，系寒玉环佩。双手自然垂于身侧，袖口宽大飘逸，裙摆拖地三尺有余。脚踩白底绣银丝云纹翘头履。面容清冷，丹凤眼微垂，眉间朱砂霜月印记清晰可见。背景为水墨群山云雾缭绕。",
+      "back": "背面全身：凌霜月背对而立，可见高挽发髻的全貌，墨蓝长发从发髻处散落，发尾微微卷曲如流水。发髻上白玉步摇的流苏垂至肩头。背部广袖仙裙的剪裁贴合身形，腰间玉带勾勒出纤细腰肢，外罩纱衣轻薄透明，隐隐透出背部线条。裙摆如流水般散开，拖地裙尾绣有银色霜花纹路。",
+      "left_profile": "左侧面全身：凌霜月身体微转向右，头部保持正面，呈现出完整的左侧轮廓。左侧发髻上露出步摇的白玉霜花装饰，左侧几缕发丝垂落耳际。左侧面可见鼻梁的优美弧度、微翘的鼻尖和丹凤眼的侧视弧度。左袖自然垂落，广袖随风微扬，露出左手腕上戴的一串冰晶手串。裙摆左侧褶皱自然垂落。",
+      "right_profile": "右侧面全身：凌霜月身体微转向左，头部保持正面，呈现完整的右侧轮廓。右侧发髻较高，露出步摇的金丝流苏。右侧面可见唇部侧面线条、下颌轮廓的优美弧线。右袖微扬，右手藏于袖中若隐若现。右耳戴着小小的霜花状耳坠。裙摆右侧线条流畅，腰侧玉带扣上挂着一枚月牙形玉佩。"
+    },
+    "costume_sets": [
+      {
+        "name": "月华流仙裙（常服）",
+        "description": "月白渐变淡蓝广袖流仙裙，外层冰蚕丝纱衣如月光般朦胧，内层绸缎绣银丝霜花纹。腰间系霜白玉带，挂寒玉环佩。整体如月光流水，清冷出尘。",
+        "color": "#E8E0F0",
+        "accessories": [
+          "白玉霜月步摇（发饰，白玉雕霜花，金丝流苏）",
+          "霜花耳坠（左耳，冰晶材质，霜花造型）",
+          "冰晶手串（左手腕，七颗月白色冰晶珠串联）",
+          "寒玉环佩（腰间，圆形寒玉雕霜月纹，系银丝绦）",
+          "月牙玉佩（腰侧，白玉月牙形，刻有霜纹）",
+          "银丝云纹翘头履（白底绣银丝祥云纹，鞋尖上翘）"
+        ],
+        "consistency_keywords": "凌霜月常服, 月白流仙裙, 冰蚕丝纱衣, 白玉步摇, 霜花耳坠, 寒玉环佩"
+      },
+      {
+        "name": "玄霜法袍（战斗装）",
+        "description": "深蓝近黑交领法袍，袖口收紧便于施法，衣襟和袖口镶银丝霜纹刺绣。腰束银丝软甲腰带，外罩半透明墨蓝纱披风。整体风格干练利落，不失仙家气度。",
+        "color": "#1B1B3A",
+        "accessories": [
+          "霜月银冠（发冠，银质镂空雕霜月纹，镶月光石）",
+          "玄铁护腕（双手腕，深色金属制，刻霜纹符文）",
+          "霜华佩（腰间，八角形寒玉雕，内含流动光晕）",
+          "银丝腰带（银丝编成软甲状，中心镶月白石）",
+          "灵霜指环（右手食指，银环镶嵌月白灵石）",
+          "墨蓝纱披风（半透明，边缘绣银丝霜花，微光流转）"
+        ],
+        "consistency_keywords": "凌霜月战斗装, 玄霜法袍, 银丝腰带, 霜月银冠, 霜华佩, 墨蓝披风"
+      }
+    ],
+    "expressions": [
+      {"name": "清冷淡然", "description": "日常表情，眼神平静如水，嘴角微微下垂，面容如霜月般清冷，无悲无喜", "prompt_keyword": "calm and aloof"},
+      {"name": "浅笑嫣然", "description": "嘴角微微上扬，眼角微弯，眼中含一丝暖意，如冰雪初融，梨涡浅浅", "prompt_keyword": "gentle smile"},
+      {"name": "凝神施法", "description": "眉头微蹙，眼神专注锐利，嘴唇微抿，眉间朱砂印记微微发亮，周身灵气涌动", "prompt_keyword": "focusing magic"},
+      {"name": "微怒含威", "description": "柳眉倒竖，丹凤眼圆睁，眼神凌厉如刀，嘴唇紧抿，周身散发寒意，不怒自威", "prompt_keyword": "slight anger"},
+      {"name": "沉思远望", "description": "眼神望向远方，瞳孔微散焦距，若有所思，睫毛低垂，面容安静，仿佛在回忆往事", "prompt_keyword": "thoughtful gaze"}
+    ],
+    "color_palette": [
+      "#FFF5EE", "#E8E0F0", "#C8C0D8", "#A8A0C0", "#7870A0",
+      "#1B1B3A", "#1a1a2e", "#2C2C5A", "#D4C8A0", "#C0A870",
+      "#B8C8D8", "#88A0B8", "#E0D8C8", "#F0E8E0", "#FFFFFF"
+    ],
+    "consistency_keywords": "凌霜月, 古风仙侠, 女性, 丹凤眼, 墨蓝长发, 高挽凌云髻, 雪白肌肤, 眉间朱砂霜月印记, 清冷气质, 仙门长老",
+    "prompt_templates": {
+      "full_body": "Ling Shuangyue, ancient Chinese xianxia style, young female cultivator, phoenix eyes, pale amber golden eyes, ink-black hair with moonlight blue sheen, high coiled bun with jade hairpin, snow-white skin with pink undertone, cinnabar frost-moon mark between eyebrows, wearing moon-white gradient to light blue flowing celestial robe, translucent ice silk gauze overlay, jade belt, standing gracefully, ethereal cold aura, realistic style, detailed textures, silk fabric texture, soft lighting, misty mountain background, masterpiece, ultra-detailed, 8k, --ar 3:4",
+      "portrait": "Ling Shuangyue portrait, close-up, ancient Chinese xianxia, beautiful young woman, phoenix eyes looking slightly downward, pale amber golden iris with gold filament patterns, ink-black hair with subtle blue sheen, coiled bun with white jade frost-flower hairpin, snow-white skin, delicate nose, cherry lips, cinnabar frost-moon mark on forehead, calm aloof expression, ethereal beauty, soft volumetric lighting, bokeh background, realistic skin texture, masterpiece, ultra-detailed, 8k, --ar 3:4",
+      "four_view_sheet": "Ling Shuangyue character sheet, four views, front back left right, ancient Chinese xianxia style, young female cultivator, moon-white celestial robe, ice silk gauze, high coiled bun with jade hairpin, phoenix eyes, pale amber eyes, snow-white skin, cinnabar mark on forehead, consistent character design, turn around model sheet, clean line art, color reference, full body, grid background, character concept sheet, --ar 16:9"
+    },
+    "variations": {
+      "costume": [
+        "月白渐变淡蓝广袖流仙裙",
+        "深蓝近黑交领玄霜法袍",
+        "素白练功服（窄袖束腰，简洁利落）"
+      ],
+      "hairstyle": [
+        "高挽凌云髻插步摇（默认发型）",
+        "半束半披（上半挽髻，下半散开，缀小银铃）",
+        "单侧编辫（右侧编细辫，余发披散，饰银丝发带）",
+        "全披发（墨蓝长发完全散开，仅在额前编细辫）"
+      ],
+      "accessories": [
+        "无发冠仅步摇",
+        "面纱（半透明月白纱，遮住下半张脸）",
+        "玉箫（腰间斜挂一支墨玉洞箫）",
+        "霜月剑（背负长剑，剑鞘银白雕霜纹）",
+        "灵霜灯（手持一盏琉璃灯，内蕴蓝色灵火）"
+      ]
+    }
+  }
+]
