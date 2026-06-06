@@ -11,15 +11,13 @@ export function getRegistryUrl(): string {
   if (typeof window !== 'undefined') {
     const stored = localStorage.getItem(REGISTRY_URL_KEY)
     if (stored) return stored
-    // 自动推导：从页面 URL 推导注册中心地址
     const host = window.location.hostname
-    // 如果用户通过 192.168.x.x 访问，注册中心在同一个 IP 的 3210 端口
     if (host !== '127.0.0.1' && host !== 'localhost') {
       return `http://${host}:3210`
     }
-    return 'http://127.0.0.1:3210'
+    return 'http://localhost:3210'
   }
-  return 'http://127.0.0.1:3210'
+  return 'http://localhost:3210'
 }
 export function setRegistryUrl(url: string) {
   localStorage.setItem(REGISTRY_URL_KEY, url)

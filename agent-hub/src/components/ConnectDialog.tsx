@@ -27,7 +27,7 @@ export function ConnectDialog({ defaultUrl, onConnect, onSkip }: ConnectDialogPr
             <input
               value={url}
               onChange={e => setUrl(e.target.value)}
-              placeholder="ws://127.0.0.1:18790"
+              placeholder="ws://localhost:8080"
               className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm text-gray-100
                 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
             />

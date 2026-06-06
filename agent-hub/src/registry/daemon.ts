@@ -864,8 +864,8 @@ export class RegistryDaemon {
       const cfg = JSON.parse(fs.readFileSync(configPath, 'utf-8'))
       const gw = cfg.gateway
       if (gw?.auth?.token) {
-        this.gwTokens.set(gw.port || 18790, gw.auth.token)
-        console.log(`[registry] loaded gw token for port ${gw.port || 18790}`)
+        this.gwTokens.set(gw.port || 8080, gw.auth.token)
+        console.log(`[registry] loaded gw token for port ${gw.port || 8080}`)
       }
     } catch (e: any) {
       console.warn('[registry] could not load gw tokens:', e.message)

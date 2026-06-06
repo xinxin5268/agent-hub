@@ -17,9 +17,9 @@ npx vite build
 
 echo ""
 echo "🚀 Starting static server on :${PORT}..."
-echo "   Access: http://127.0.0.1:${PORT}/"
+echo "   Access: http://localhost:${PORT}/"
 echo "   (Or click 🚀 Agent Hub in Control UI)"
 echo ""
 
 # 用 python http.server 服务 dist 目录
-exec python3 -m http.server "$PORT" --bind 127.0.0.1 -d "$HUB_DIR/dist"
+exec python3 -m http.server "$PORT" --bind localhost -d "$HUB_DIR/dist"

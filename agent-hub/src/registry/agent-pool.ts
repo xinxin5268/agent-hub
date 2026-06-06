@@ -340,10 +340,10 @@ export class AgentPool {
 
     // 基于 Agent 类型匹配技能
     const skillMap: Array<{ keywords: string[]; skill: string }> = [
-      { keywords: ['xiaobao', 'ceo', '小宝', 'master'], skill: 'ceo-agent' },
-      { keywords: ['xiaocong', '小聪', 'cong'], skill: 'assistant-agent' },
+      { keywords: ['xiaobao', 'ceo', 'agent-master', 'master'], skill: 'ceo-agent' },
+      { keywords: ['xiaocong', 'agent-assistant', 'cong'], skill: 'assistant-agent' },
       { keywords: ['opencode', 'coder', 'codex'], skill: 'coding-agent' },
-      { keywords: ['千问', 'qianwen', 'a3'], skill: 'research-agent' },
+      { keywords: ['research', 'qianwen', 'a3'], skill: 'research-agent' },
       { keywords: ['openclaw-gateway', 'gateway'], skill: 'gateway-agent' },
       { keywords: ['opencode'], skill: 'code-review' },
       { keywords: ['opencode'], skill: 'debugging' },

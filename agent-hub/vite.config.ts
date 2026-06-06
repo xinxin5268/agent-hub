@@ -14,11 +14,5 @@ export default defineConfig({
   server: {
     port: 5173,
     host: '127.0.0.1',
-    proxy: {
-      '/ws': {
-        target: 'ws://127.0.0.1:18790',
-        ws: true,
-      },
-    },
   },
 })

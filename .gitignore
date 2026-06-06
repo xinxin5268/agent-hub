@@ -15,8 +15,10 @@ Thumbs.db
 .env
 .local
 NOTES.md
+*.bak
+*.log
 
-# Runtime data (不要上传运行时数据)
-agent-hub/data/messages.json
-agent-hub/data/sessions.json
-agent-hub/data/tasks.json
+# Runtime data
+data/
+logs/
+tmp/
